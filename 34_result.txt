@@ -1,0 +1,14 @@
+--- Result Summary ---
+Name: ali
+Roll Number: 34
+
+Subject-wise Marks:
+english: 60.0 / 100.0
+math: 60.0 / 100.0
+science: 70.0 / 100.0
+Islmyiat: 90.0 / 90.0
+
+Total Marks: 280.0 / 390.0
+Percentage: 71.79%
+GPA: 3.0
+Grade: B

@@ -1,0 +1,26 @@
+print("-------------Welcome to age calculator----------------")
+# Ask user to enter date of birth
+birth_year = int(input("Enter your birth year (e.g. 2000): "))
+birth_month = int(input("Enter your birth month (1-12): "))
+birth_day = int(input("Enter your birth day (1-31): "))
+
+# Ask user to enter today's date
+current_year = int(input("Enter current year: "))
+current_month = int(input("Enter current month: "))
+current_day = int(input("Enter current day: "))
+
+# Calculate age
+years = current_year - birth_year
+months = current_month - birth_month
+days = current_day - birth_day
+
+# Adjusting  if day/month i negative
+if days < 0:
+    months -= 1
+    days += 30  # Approximate
+if months < 0:
+    years -= 1
+    months += 12
+
+#  result
+print("Your age is", years, "years,", months, "months and", days, "days.")
